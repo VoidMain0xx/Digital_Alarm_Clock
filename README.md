@@ -23,6 +23,10 @@ The Digital Alarm Clock is a web-based application that allows users to set alar
 ✔ Customizable styling to make the clock visually appealing
 
 -------------------------------------------
+# demo 
+url(https://voidmain0xx.github.io/Digital_Alarm_Clock/)
+
+--------------------------------------------
 # Usage
 ✔ Open the Digital Alarm Clock in your web browser.
 ✔ Set the alarm time by entering hours and minutes and clicking the "Set Alarm" button.
