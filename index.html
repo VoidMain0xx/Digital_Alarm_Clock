@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Including Css -->
+    <link rel="stylesheet" href="Style.css">
+    <title>Digital Alarm Clock</title>
+</head>
+
+<body>
+
+    <!-- Welccome back container -->
+    <div class="d-none" id="welcomeBack">
+        <h1>Hey Welcome Back</h1>
+        <button id="res-btn">Resume Button</button>
+    </div>
+
+    <!-- Main container -->
+    <div class="flex margin-top">
+        <div class="wrapper flex ">
+            <img src="Media/clock.svg" alt="" srcset="">
+            <!-- current time -->
+            <h1 id="currentTime">00:00:00</h1>
+            <!-- main content -->
+            <div id="content">
+                <!-- hour Section -->
+                <div class="coloumn">
+                    <select name="" id="hour">
+                        <option value="Hour" selected hidden>Hour</option>
+                    </select>
+                </div>
+                <!-- minute Section-->
+                <div class="coloumn">
+                    <select name="" id="minute">
+                        <option value="Minute" selected hidden>Minute</option>
+                    </select>
+                </div>
+                <!-- Am/pm Button -->
+                <div class="coloumn">
+                    <select name="" id="ampm">
+                        <option value="AM/PM" selected hidden>AM/PM</option>
+                    </select>
+                </div>
+            </div>
+            <!-- set Button -->
+            <button id="set-btn"></button>
+            <p id="alarmText"></p>
+        </div>
+    </div>
+
+    <!-- Including script -->
+    <script src="Script.js"></script>
+</body>
+
+</html>
