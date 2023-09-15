@@ -38,7 +38,7 @@ url(https://voidmain0xx.github.io/Digital_Alarm_Clock/)
 # Installation
 ✔ You can clone this repository and run the Digital Alarm Clock locally:
 
-✔ Clone the repository: 
+✔ Clone the repository: https://github.com/VoidMain0xx/Digital_Alarm_Clock.git
 ✔ Open the project folder in your code editor.
 ✔ Open the index.html file in your web browser to use the alarm clock.
 ---------------------------------------------
